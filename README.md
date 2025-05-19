@@ -1,8 +1,9 @@
 # 🎮 Ultimate Hangman Challenge V.1.0.0
+![Coverbanner](https://github.com/user-attachments/assets/671b9f44-c71f-4560-b53e-5d64c91b14f2)
 
 <div align="center">
-  <img src="https://img.shields.io/badge/version-2.0-blue.svg" alt="Version 2.0">
-  <img src="https://img.shields.io/badge/python-3.6+-green.svg" alt="Python 3.6+">
+  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version 1.0.0">
+  <img src="https://img.shields.io/badge/python-3.10+-green.svg" alt="Python 3.10+">
   <img src="https://img.shields.io/badge/license-MIT-yellow.svg" alt="License: MIT">
   <img src="https://img.shields.io/badge/Zylo--X%20Studios-Official-red.svg" alt="Zylo-X Studios">
 </div>
@@ -13,9 +14,9 @@
 
 ---
 
-## ✨ What's New in Version 1.0.0
+## ✨ What's New in our game 1.0.0
 
-This latest version brings significant improvements to both code structure and player experience:
+This initial version brings significant improvements to both code structure and player experience:
 
 - **🏗️ Class-Based Architecture**: Complete code restructuring using object-oriented programming for better organization and maintainability
 - **🌈 Custom Word Categories**: New category system with Animals, Countries, Movies, and Mixed word collections
@@ -79,10 +80,11 @@ Our revamped version combines nostalgic console gameplay with contemporary desig
 ## 🛠️ Installation
 
 ### System Requirements
-
-- Python 3.6+
-- 50MB free disk space
+- Python 3.10+
+- 40MB free disk space
 - Terminal with color support
+  
+#### There is Ready standalone exe for windows 10/11
 
 ### Dependencies
 
@@ -99,7 +101,7 @@ keyboard>=0.13.5
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/zylo-X/ultimate-hangman-challenge.git
-   cd Python-Games/Hangman
+   cd ultimate-hangman-challenge
    ```
  
 2. **Install Required Packages**:
@@ -180,15 +182,19 @@ HangmanGame
 
 ```
 Hangman/
-├── Hangman.py           # Main game script
-├── soundfiles           # sound effects files(.ogg,.wav,.mp3)
-├── Animals.txt          # Animal category word list
-├── Countries.txt        # Country names word list
-├── Movies.txt           # Movie titles word list
-├── Mixed.txt            # General vocabulary word list
-├── Easywords.txt        # Easy difficulty words
-├── Hardwords.txt        # Hard difficulty words
-├── high_scores.pkl      # Saved leaderboard data
+├── Hangman.py             # Main game script
+├── data                   # Game Data Folder
+  ├── soundfiles           # sound effects files(.ogg,.wav,.mp3)
+  ├── Animals.txt          # Animal category word list
+  ├── Countries.txt        # Country names word list
+  ├── Movies.txt           # Movie titles word list
+  ├── Mixed.txt            # General vocabulary word list
+  ├── Easywords.txt        # Easy difficulty words
+  ├── Hardwords.txt        # Hard difficulty words
+├── Preview                # Preview Images for the game on win 11 terminal
+  ├── pngfiles           #  Preview Images(.png)
+├── Release                # Portable game file 
+  ├── hangman.exe                # Ready standalone .exe for windows 10/11
 ├── requirements.txt     # Package dependencies
 └── README.md            # This documentation
 ```
@@ -209,14 +215,15 @@ Interested in contributing or extending the game? Here are some tips:
 
 ## 👥 Credits
 
-- **Development Team**: Zylo-X Studios
+- **Development Team**: Zylo-X Studios ©
 - **Word Lists**: Curated collections of categorized vocabulary
 - **Libraries**:
   - [termcolor](https://pypi.org/project/termcolor/) - Terminal text coloring
   - [pyfiglet](https://pypi.org/project/pyfiglet/) - ASCII art generation
-  - [Pyagame] (https://pypi.org/project/pygame/) - Python Game Development
-  
-  Music by Cleyton Kauffman - https://soundcloud.com/cleytonkauffman
+  - [Pyagame](https://pypi.org/project/pygame/) - Python Game Development
+  - [appdirs](https://pypi.org/project/appdirs/) - A small Python module for determining appropriate platform-specific dirs
+  - [keyboard](https://pypi.org/project/keyboard/) - Hook and simulate keyboard events on Windows and Linux
+  -  Music by Cleyton Kauffman - https://soundcloud.com/cleytonkauffman
 ---
 
 ## 📄 License
