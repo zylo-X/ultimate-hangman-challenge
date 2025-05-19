@@ -98,10 +98,10 @@ keyboard>=0.13.5
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/zylo-x/Python-Games.git
+   git clone https://github.com/zylo-X/ultimate-hangman-challenge.git
    cd Python-Games/Hangman
    ```
-
+ 
 2. **Install Required Packages**:
    ```bash
    pip install -r requirements.txt
